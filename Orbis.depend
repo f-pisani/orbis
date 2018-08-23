@@ -1,0 +1,740 @@
+# depslib dependency file v1.0
+1397519964 source:x:\c++\[game] orbis\orbis\main.cpp
+	<iostream>
+	"Orbis/Orbis.hpp"
+
+1408055104 x:\c++\[game] orbis\orbis\orbis\orbis.hpp
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	"../st4code/StateStack.hpp"
+	"Menu.hpp"
+
+1408100338 source:x:\c++\[game] orbis\orbis\orbis\orbis.cpp
+	"Orbis.hpp"
+
+1397524537 source:x:\c++\[game] orbis\orbis\orbis\state.cpp
+	"State.hpp"
+
+1397524527 x:\c++\[game] orbis\orbis\orbis\state.hpp
+	"StateStack.hpp"
+
+1397569062 source:x:\c++\[game] orbis\orbis\orbis\statestack.cpp
+	"StateStack.hpp"
+
+1397523976 x:\c++\[game] orbis\orbis\orbis\statestack.hpp
+	<iostream>
+	<stack>
+
+1404430886 x:\c++\[game] orbis\orbis\orbis\mainmenustate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"MainGameState.hpp"
+
+1405333603 source:x:\c++\[game] orbis\orbis\orbis\mainmenustate.cpp
+	"MainMenuState.hpp"
+
+1397612560 x:\c++\[game] orbis\orbis\st4code\keyboard.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1397612560 source:x:\c++\[game] orbis\orbis\st4code\keyboard.cpp
+	"Keyboard.hpp"
+
+1397613646 source:x:\c++\[game] orbis\orbis\st4code\mouse.cpp
+	"Mouse.hpp"
+
+1397613626 x:\c++\[game] orbis\orbis\st4code\mouse.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1408101756 x:\c++\[game] orbis\orbis\st4code\statestack.hpp
+	<memory>
+	<stack>
+	"State.hpp"
+
+1403621526 x:\c++\[game] orbis\orbis\st4code\state.hpp
+	<memory>
+	"StateStack.hpp"
+
+1403610218 source:x:\c++\[game] orbis\orbis\st4code\state.cpp
+	"State.hpp"
+
+1408101750 source:x:\c++\[game] orbis\orbis\st4code\statestack.cpp
+	"StateStack.hpp"
+
+1403631806 x:\c++\[game] orbis\orbis\orbis\graphicsstate.hpp
+	"../st4code/State.hpp"
+
+1403631802 source:x:\c++\[game] orbis\orbis\orbis\graphicsstate.cpp
+	"GraphicsState.hpp"
+
+1398194304 x:\c++\[game] orbis\orbis\orbis\animatedbackground.hpp
+	<SFML/Graphics.hpp>
+	"Orbis.hpp"
+
+1398194304 source:x:\c++\[game] orbis\orbis\orbis\animatedbackground.cpp
+	"AnimatedBackground.hpp"
+
+1405341004 source:x:\c++\[game] orbis\orbis\orbis\maingamestate.cpp
+	"MainGameState.hpp"
+
+1405338499 x:\c++\[game] orbis\orbis\orbis\maingamestate.hpp
+	<sstream>
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"PauseGameState.hpp"
+	"GameStruct.hpp"
+
+1403695057 x:\c++\[game] orbis\orbis\orbis\pausegamestate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1405292561 source:x:\c++\[game] orbis\orbis\orbis\pausegamestate.cpp
+	"PauseGameState.hpp"
+
+1408309648 x:\c++\[game] orbis\orbis\orbis\gamestruct.hpp
+
+1397516364 source:f:\c++\[game] orbis\orbis\main.cpp
+	<iostream>
+	"Orbis/Orbis.hpp"
+
+1405333608 f:\c++\[game] orbis\orbis\orbis\orbis.hpp
+	<iostream>
+	<memory>
+	<SFML/Graphics.hpp>
+	"../st4code/StateStack.hpp"
+	"MainMenuState.hpp"
+	"MainGameState.hpp"
+	"PauseGameState.hpp"
+
+1403617904 f:\c++\[game] orbis\orbis\st4code\statestack.hpp
+	<memory>
+	<stack>
+	"State.hpp"
+
+1403617926 f:\c++\[game] orbis\orbis\st4code\state.hpp
+	<memory>
+	"StateStack.hpp"
+
+1404427288 f:\c++\[game] orbis\orbis\orbis\mainmenustate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"MainGameState.hpp"
+
+1397608960 f:\c++\[game] orbis\orbis\st4code\keyboard.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1397610026 f:\c++\[game] orbis\orbis\st4code\mouse.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1403628206 f:\c++\[game] orbis\orbis\orbis\graphicsstate.hpp
+	"../st4code/State.hpp"
+
+1405334900 f:\c++\[game] orbis\orbis\orbis\maingamestate.hpp
+	<sstream>
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"PauseGameState.hpp"
+	"GameStruct.hpp"
+
+1403691458 f:\c++\[game] orbis\orbis\orbis\pausegamestate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1405337132 f:\c++\[game] orbis\orbis\orbis\gamestruct.hpp
+
+1403628202 source:f:\c++\[game] orbis\orbis\orbis\graphicsstate.cpp
+	"GraphicsState.hpp"
+
+1405337406 source:f:\c++\[game] orbis\orbis\orbis\maingamestate.cpp
+	"MainGameState.hpp"
+
+1405330004 source:f:\c++\[game] orbis\orbis\orbis\mainmenustate.cpp
+	"MainMenuState.hpp"
+
+1405334768 source:f:\c++\[game] orbis\orbis\orbis\orbis.cpp
+	"Orbis.hpp"
+
+1405288962 source:f:\c++\[game] orbis\orbis\orbis\pausegamestate.cpp
+	"PauseGameState.hpp"
+
+1397608960 source:f:\c++\[game] orbis\orbis\st4code\keyboard.cpp
+	"Keyboard.hpp"
+
+1397610046 source:f:\c++\[game] orbis\orbis\st4code\mouse.cpp
+	"Mouse.hpp"
+
+1403606618 source:f:\c++\[game] orbis\orbis\st4code\state.cpp
+	"State.hpp"
+
+1403617698 source:f:\c++\[game] orbis\orbis\st4code\statestack.cpp
+	"StateStack.hpp"
+
+1397516364 source:f:\programation\c++\[game] orbis\orbis\main.cpp
+	<iostream>
+	"Orbis/Orbis.hpp"
+
+1405333608 f:\programation\c++\[game] orbis\orbis\orbis\orbis.hpp
+	<iostream>
+	<memory>
+	<SFML/Graphics.hpp>
+	"../st4code/StateStack.hpp"
+	"MainMenuState.hpp"
+	"MainGameState.hpp"
+	"PauseGameState.hpp"
+
+1403617904 f:\programation\c++\[game] orbis\orbis\st4code\statestack.hpp
+	<memory>
+	<stack>
+	"State.hpp"
+
+1403617926 f:\programation\c++\[game] orbis\orbis\st4code\state.hpp
+	<memory>
+	"StateStack.hpp"
+
+1404427288 f:\programation\c++\[game] orbis\orbis\orbis\mainmenustate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"MainGameState.hpp"
+
+1397608960 f:\programation\c++\[game] orbis\orbis\st4code\keyboard.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1397610026 f:\programation\c++\[game] orbis\orbis\st4code\mouse.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1403628206 f:\programation\c++\[game] orbis\orbis\orbis\graphicsstate.hpp
+	"../st4code/State.hpp"
+
+1407674900 f:\programation\c++\[game] orbis\orbis\orbis\maingamestate.hpp
+	<sstream>
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"PauseGameState.hpp"
+	"GameOverState.hpp"
+	"GameStruct.hpp"
+
+1403691458 f:\programation\c++\[game] orbis\orbis\orbis\pausegamestate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1405337132 f:\programation\c++\[game] orbis\orbis\orbis\gamestruct.hpp
+
+1403628202 source:f:\programation\c++\[game] orbis\orbis\orbis\graphicsstate.cpp
+	"GraphicsState.hpp"
+
+1407673796 source:f:\programation\c++\[game] orbis\orbis\orbis\maingamestate.cpp
+	"MainGameState.hpp"
+
+1405330004 source:f:\programation\c++\[game] orbis\orbis\orbis\mainmenustate.cpp
+	"MainMenuState.hpp"
+
+1405334768 source:f:\programation\c++\[game] orbis\orbis\orbis\orbis.cpp
+	"Orbis.hpp"
+
+1405288962 source:f:\programation\c++\[game] orbis\orbis\orbis\pausegamestate.cpp
+	"PauseGameState.hpp"
+
+1397608960 source:f:\programation\c++\[game] orbis\orbis\st4code\keyboard.cpp
+	"Keyboard.hpp"
+
+1397610046 source:f:\programation\c++\[game] orbis\orbis\st4code\mouse.cpp
+	"Mouse.hpp"
+
+1403606618 source:f:\programation\c++\[game] orbis\orbis\st4code\state.cpp
+	"State.hpp"
+
+1403617698 source:f:\programation\c++\[game] orbis\orbis\st4code\statestack.cpp
+	"StateStack.hpp"
+
+1397516364 source:c:\users\st4n0f\desktop\[game] orbis\orbis\main.cpp
+	<iostream>
+	"Orbis/Orbis.hpp"
+
+1408051502 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\orbis.hpp
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	"../st4code/StateStack.hpp"
+	"Menu.hpp"
+
+1408098155 c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\statestack.hpp
+	<memory>
+	<stack>
+	"State.hpp"
+
+1403617926 c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\state.hpp
+	<memory>
+	"StateStack.hpp"
+
+1408050783 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\mainmenustate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"MainGameState.hpp"
+
+1397608960 c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\keyboard.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1397610026 c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\mouse.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1403628206 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\graphicsstate.hpp
+	"../st4code/State.hpp"
+
+1408098353 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\maingamestate.hpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"Pause.hpp"
+	"GameOver.hpp"
+	"GameStruct.hpp"
+
+1408097488 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\pausegamestate.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1407676330 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\gamoverstate.hpp
+	<sstream>
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"GameStruct.hpp"
+
+1408306047 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\gamestruct.hpp
+
+1407682803 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\gameoverstate.hpp
+	<fstream>
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"GameStruct.hpp"
+
+1403628202 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\graphicsstate.cpp
+	"GraphicsState.hpp"
+
+1407860189 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\gameoverstate.cpp
+	"GameOverState.hpp"
+
+1408101590 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\maingamestate.cpp
+	"MainGameState.hpp"
+
+1408050742 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\mainmenustate.cpp
+	"MainMenuState.hpp"
+
+1408096737 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\orbis.cpp
+	"Orbis.hpp"
+
+1408097864 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\pausegamestate.cpp
+	"PauseGameState.hpp"
+
+1397608960 source:c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\keyboard.cpp
+	"Keyboard.hpp"
+
+1397610046 source:c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\mouse.cpp
+	"Mouse.hpp"
+
+1403606618 source:c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\state.cpp
+	"State.hpp"
+
+1408098149 source:c:\users\st4n0f\desktop\[game] orbis\orbis\st4code\statestack.cpp
+	"StateStack.hpp"
+
+1408009988 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\misc.cpp
+	"misc.hpp"
+
+1408010270 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\misc.hpp
+	<SFML/Graphics.hpp>
+
+1408184629 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\menu.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"Game.hpp"
+
+1408213528 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\menu.cpp
+	"Menu.hpp"
+
+1408098404 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\pause.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1408099015 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\gameover.hpp
+	<SFML/Graphics.hpp>
+	<fstream>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"GameStruct.hpp"
+
+1408184440 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\pause.cpp
+	"Pause.hpp"
+
+1408101758 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\gameover.cpp
+	"GameOver.hpp"
+
+1408212591 c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\game.hpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"Pause.hpp"
+	"GameOver.hpp"
+	"GameStruct.hpp"
+
+1408297918 source:c:\users\st4n0f\desktop\[game] orbis\orbis\orbis\game.cpp
+	"Game.hpp"
+
+1397519964 source:c:\users\florian\desktop\[game] orbis\orbis\main.cpp
+	<iostream>
+	"Orbis/Orbis.hpp"
+
+1408055104 c:\users\florian\desktop\[game] orbis\orbis\orbis\orbis.hpp
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	"../st4code/StateStack.hpp"
+	"Menu.hpp"
+
+1408101756 c:\users\florian\desktop\[game] orbis\orbis\st4code\statestack.hpp
+	<memory>
+	<stack>
+	"State.hpp"
+
+1403621526 c:\users\florian\desktop\[game] orbis\orbis\st4code\state.hpp
+	<memory>
+	"StateStack.hpp"
+
+1408188230 c:\users\florian\desktop\[game] orbis\orbis\orbis\menu.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"Game.hpp"
+
+1397612560 c:\users\florian\desktop\[game] orbis\orbis\st4code\keyboard.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1397613626 c:\users\florian\desktop\[game] orbis\orbis\st4code\mouse.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1403631806 c:\users\florian\desktop\[game] orbis\orbis\orbis\graphicsstate.hpp
+	"../st4code/State.hpp"
+
+1408216192 c:\users\florian\desktop\[game] orbis\orbis\orbis\game.hpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"Pause.hpp"
+	"GameOver.hpp"
+	"GameStruct.hpp"
+
+1408102006 c:\users\florian\desktop\[game] orbis\orbis\orbis\pause.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1408102616 c:\users\florian\desktop\[game] orbis\orbis\orbis\gameover.hpp
+	<SFML/Graphics.hpp>
+	<fstream>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"GameStruct.hpp"
+
+1408309648 c:\users\florian\desktop\[game] orbis\orbis\orbis\gamestruct.hpp
+
+1408301520 source:c:\users\florian\desktop\[game] orbis\orbis\orbis\game.cpp
+	"Game.hpp"
+
+1408105360 source:c:\users\florian\desktop\[game] orbis\orbis\orbis\gameover.cpp
+	"GameOver.hpp"
+
+1403631802 source:c:\users\florian\desktop\[game] orbis\orbis\orbis\graphicsstate.cpp
+	"GraphicsState.hpp"
+
+1408217130 source:c:\users\florian\desktop\[game] orbis\orbis\orbis\menu.cpp
+	"Menu.hpp"
+
+1408100338 source:c:\users\florian\desktop\[game] orbis\orbis\orbis\orbis.cpp
+	"Orbis.hpp"
+
+1408188042 source:c:\users\florian\desktop\[game] orbis\orbis\orbis\pause.cpp
+	"Pause.hpp"
+
+1397612560 source:c:\users\florian\desktop\[game] orbis\orbis\st4code\keyboard.cpp
+	"Keyboard.hpp"
+
+1397613646 source:c:\users\florian\desktop\[game] orbis\orbis\st4code\mouse.cpp
+	"Mouse.hpp"
+
+1403610218 source:c:\users\florian\desktop\[game] orbis\orbis\st4code\state.cpp
+	"State.hpp"
+
+1408101750 source:c:\users\florian\desktop\[game] orbis\orbis\st4code\statestack.cpp
+	"StateStack.hpp"
+
+1408309970 source:c:\users\florian\desktop\[game] orbis\orbis\orbis\record.cpp
+	"Record.hpp"
+
+1408309970 c:\users\florian\desktop\[game] orbis\orbis\orbis\record.hpp
+
+1408889485 x:\c++\[game] orbis\orbis\orbis\menu.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"Game.hpp"
+	"Record.hpp"
+
+1408216192 x:\c++\[game] orbis\orbis\orbis\game.hpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"Pause.hpp"
+	"GameOver.hpp"
+	"GameStruct.hpp"
+
+1408889822 x:\c++\[game] orbis\orbis\orbis\pause.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1408889908 x:\c++\[game] orbis\orbis\orbis\gameover.hpp
+	<SFML/Graphics.hpp>
+	<fstream>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"GameStruct.hpp"
+
+1408301520 source:x:\c++\[game] orbis\orbis\orbis\game.cpp
+	"Game.hpp"
+
+1408889908 source:x:\c++\[game] orbis\orbis\orbis\gameover.cpp
+	"GameOver.hpp"
+
+1408889847 source:x:\c++\[game] orbis\orbis\orbis\pause.cpp
+	"Pause.hpp"
+
+1408890242 x:\c++\[game] orbis\orbis\orbis\record.hpp
+	<SFML/Graphics.hpp>
+	<fstream>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1408889462 source:x:\c++\[game] orbis\orbis\orbis\menu.cpp
+	"Menu.hpp"
+
+1408890242 source:x:\c++\[game] orbis\orbis\orbis\record.cpp
+	"Record.hpp"
+
+1397516364 source:p:\c++\[game] orbis\orbis\main.cpp
+	<iostream>
+	"Orbis/Orbis.hpp"
+
+1408051504 p:\c++\[game] orbis\orbis\orbis\orbis.hpp
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	"../st4code/StateStack.hpp"
+	"Menu.hpp"
+
+1408098156 p:\c++\[game] orbis\orbis\st4code\statestack.hpp
+	<memory>
+	<stack>
+	"State.hpp"
+
+1403617926 p:\c++\[game] orbis\orbis\st4code\state.hpp
+	<memory>
+	"StateStack.hpp"
+
+1408885885 p:\c++\[game] orbis\orbis\orbis\menu.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"Game.hpp"
+	"Record.hpp"
+
+1397608960 p:\c++\[game] orbis\orbis\st4code\keyboard.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1397610026 p:\c++\[game] orbis\orbis\st4code\mouse.hpp
+	<SFML/Graphics.hpp>
+	<map>
+
+1403628206 p:\c++\[game] orbis\orbis\orbis\graphicsstate.hpp
+	"../st4code/State.hpp"
+
+1408212592 p:\c++\[game] orbis\orbis\orbis\game.hpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"Orbis.hpp"
+	"GraphicsState.hpp"
+	"Pause.hpp"
+	"GameOver.hpp"
+	"GameStruct.hpp"
+
+1408886222 p:\c++\[game] orbis\orbis\orbis\pause.hpp
+	<SFML/Graphics.hpp>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1408886308 p:\c++\[game] orbis\orbis\orbis\gameover.hpp
+	<SFML/Graphics.hpp>
+	<fstream>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+	"GameStruct.hpp"
+
+1408306048 p:\c++\[game] orbis\orbis\orbis\gamestruct.hpp
+
+1408886642 p:\c++\[game] orbis\orbis\orbis\record.hpp
+	<SFML/Graphics.hpp>
+	<fstream>
+	<cmath>
+	<ctime>
+	"../st4code/Keyboard.hpp"
+	"../st4code/Mouse.hpp"
+	"GraphicsState.hpp"
+	"Orbis.hpp"
+
+1408297920 source:p:\c++\[game] orbis\orbis\orbis\game.cpp
+	"Game.hpp"
+
+1408886308 source:p:\c++\[game] orbis\orbis\orbis\gameover.cpp
+	"GameOver.hpp"
+
+1403628202 source:p:\c++\[game] orbis\orbis\orbis\graphicsstate.cpp
+	"GraphicsState.hpp"
+
+1408885862 source:p:\c++\[game] orbis\orbis\orbis\menu.cpp
+	"Menu.hpp"
+
+1408096738 source:p:\c++\[game] orbis\orbis\orbis\orbis.cpp
+	"Orbis.hpp"
+
+1408886247 source:p:\c++\[game] orbis\orbis\orbis\pause.cpp
+	"Pause.hpp"
+
+1408886642 source:p:\c++\[game] orbis\orbis\orbis\record.cpp
+	"Record.hpp"
+
+1397608960 source:p:\c++\[game] orbis\orbis\st4code\keyboard.cpp
+	"Keyboard.hpp"
+
+1397610046 source:p:\c++\[game] orbis\orbis\st4code\mouse.cpp
+	"Mouse.hpp"
+
+1403606618 source:p:\c++\[game] orbis\orbis\st4code\state.cpp
+	"State.hpp"
+
+1408098150 source:p:\c++\[game] orbis\orbis\st4code\statestack.cpp
+	"StateStack.hpp"
+

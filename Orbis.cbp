@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Orbis" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="debug/Orbis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="st4code" />
+				</Compiler>
+				<Linker>
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-audio-d.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-graphics-d.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-main-d.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-network-d.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-system-d.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-window-d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="release/Orbis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="st4code" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-audio.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-graphics.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-main.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-network.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-system.a" />
+					<Add library="D:\CodeBlocks\SFML-2.1\lib\libsfml-window.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Orbis/Game.cpp" />
+		<Unit filename="Orbis/Game.hpp" />
+		<Unit filename="Orbis/GameOver.cpp" />
+		<Unit filename="Orbis/GameOver.hpp" />
+		<Unit filename="Orbis/GameStruct.hpp" />
+		<Unit filename="Orbis/GraphicsState.cpp" />
+		<Unit filename="Orbis/GraphicsState.hpp" />
+		<Unit filename="Orbis/Menu.cpp" />
+		<Unit filename="Orbis/Menu.hpp" />
+		<Unit filename="Orbis/Orbis.cpp" />
+		<Unit filename="Orbis/Orbis.hpp" />
+		<Unit filename="Orbis/Pause.cpp" />
+		<Unit filename="Orbis/Pause.hpp" />
+		<Unit filename="Orbis/Record.cpp" />
+		<Unit filename="Orbis/Record.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="st4code/Keyboard.cpp" />
+		<Unit filename="st4code/Keyboard.hpp" />
+		<Unit filename="st4code/Mouse.cpp" />
+		<Unit filename="st4code/Mouse.hpp" />
+		<Unit filename="st4code/State.cpp" />
+		<Unit filename="st4code/State.hpp" />
+		<Unit filename="st4code/StateStack.cpp" />
+		<Unit filename="st4code/StateStack.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
