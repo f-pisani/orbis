@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  orbis:
+    build: .
+    image: orbis-game
+    container_name: orbis
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      # X11 socket for GUI
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # Optional: mount for saved games/scores
+      - ./saves:/app/saves
+    network_mode: host
+    stdin_open: true
+    tty: true

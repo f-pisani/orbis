@@ -1,0 +1,62 @@
+# Build directories
+build/
+debug/
+release/
+
+# Executables
+*.exe
+*.out
+orbis-game
+orbis-game-debug
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dll
+
+# IDE files
+*.cbp
+*.cbp.save
+*.depend
+*.layout
+*.layout.save
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+*.suo
+
+# Build logs
+*.log
+*build_log.html
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Editor files
+*~
+*.swp
+*.swo
+.idea/
+
+# Graphics source files (optional - uncomment if you want to exclude)
+# *.psd
+# *.ai
+# *.sketch
+
+# Package managers
+node_modules/
+vendor/
+
+# Temporary files
+*.bak
+*.backup
+*.orig
